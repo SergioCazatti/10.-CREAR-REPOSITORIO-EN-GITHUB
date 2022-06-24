@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>BEAR GYM</title>
 </head>
 <body>
     <div class="contenedor">
-        <header class="encabezado">
+        <header class="encabezado" data-aos="fade-right" data-aos-duration="2500">
             <div class="logo">
                 <a href="./index.html"><img src="./assets/img/logo-small_blanco.png" alt="BearGym"></a>
                 
@@ -20,7 +21,7 @@
                 </div>
             </div>
         </header>
-        <nav class="navegador">
+        <nav class="navegador" data-aos="fade-left" data-aos-duration="2500" data-aos-delay="800">
             <div class="navbar">
                 <ul>
                     <li class="seleccionado"><a href="#">Inicio</a></li>
@@ -36,19 +37,23 @@
             <div class="informacionCuerpo">
                 <div class="relleno"></div>
                 <div class="relleno"></div>
-                <p class="titulo">MANTENÉ TU CUERPO</p>
-                <p class="subtitulo">Fuerte & En Forma</p>
-                <p class="descripcion">Centro de salud fitness donde tu cuerpo toma forma. Empieza a entrenar ahora para mantenerte en forma y saludable todo el año.</h3></p>
-                <button class="btn btn_lg">Ingresar !</button>
+                <p class="titulo" data-aos="zoom-in">MANTENÉ TU CUERPO</p>
+                <p class="subtitulo" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">Fuerte & En Forma</p>
+                <p class="descripcion" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Centro de salud fitness donde tu cuerpo toma forma. Empieza a entrenar ahora para mantenerte en forma y saludable todo el año.</h3></p>
+                <button class="btn btn_lg" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1200">Ingresar !</button>
                 <div class="relleno"></div>
                 <div class="relleno"></div>
             </div>
         </main>            
-        <footer class="pie">
+        <footer class="pie" data-aos="flip-up" data-aos-duration="2500">
             <div class="informacionPie">
                 Copyright © 2022 - BEAR GYM - Todos los derechos reservados.
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
