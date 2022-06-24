@@ -23,7 +23,7 @@ html { background-color: #000; }
 
 .encabezado{
     grid-area: encabezado;
-    background-color: darkslateblue ;
+    background-image: linear-gradient(to left, rgb(0, 0, 0),  darkslateblue);
     padding-right: 10px;
 }
 
